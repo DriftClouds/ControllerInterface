@@ -1,0 +1,29 @@
+.content,
+.frame {
+  display: flex;
+  flex-direction: column;
+}
+.frame {
+  width: 564px;
+  height: 199px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+}
+.content {
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-gainsboro-100);
+  border-right: 1px solid var(--color-whitesmoke-200);
+  border-bottom: 1px solid var(--color-whitesmoke-200);
+  border-left: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 800px;
+  height: 400px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-25xl) var(--padding-82xl) var(--padding-14xl)
+    var(--padding-116xl);
+  gap: var(--gap-22xl);
+}

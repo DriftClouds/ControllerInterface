@@ -1,0 +1,17 @@
+.tabContainer3,
+.tabs {
+  width: 800px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.tabContainer3 {
+  position: absolute;
+  top: calc(50% - 415px);
+  left: calc(50% - 400px);
+  height: 830px;
+  flex-direction: column;
+  align-items: center;
+}

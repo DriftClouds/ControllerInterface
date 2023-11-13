@@ -1,0 +1,20 @@
+.enterIcon,
+.faqIcon {
+  position: relative;
+  width: 258px;
+  height: 142px;
+  object-fit: cover;
+}
+.enterIcon {
+  width: 100px;
+  height: 100px;
+}
+.faqParent {
+  position: absolute;
+  top: 247px;
+  left: -26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}

@@ -1,0 +1,80 @@
+.tabs {
+  align-self: stretch;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.shutdown {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 89px;
+  height: 31px;
+  flex-shrink: 0;
+}
+.shutdownWrapper {
+  cursor: pointer;
+  border: 3px solid var(--color-gray-200);
+  padding: 24.857696533203125px 0;
+  background-color: var(--color-gray-100);
+  border-radius: var(--br-xl);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  width: 187px;
+  height: 82px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.powerOffButton {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.frame,
+.frame1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.frame1 {
+  align-items: center;
+}
+.content,
+.tabContainer2 {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-gainsboro-100);
+  border-right: 1px solid var(--color-gainsboro-100);
+  border-bottom: 1px solid var(--color-gainsboro-100);
+  border-left: 1px solid var(--color-gainsboro-100);
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-59xl) var(--padding-116xl) var(--padding-51xl);
+  gap: var(--gap-33xl);
+}
+.tabContainer2 {
+  position: absolute;
+  top: calc(50% - 400px);
+  left: calc(50% - 401.5px);
+  width: 800px;
+  height: 830px;
+  align-items: center;
+  justify-content: center;
+}

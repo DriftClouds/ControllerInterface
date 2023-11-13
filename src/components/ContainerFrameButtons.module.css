@@ -1,0 +1,49 @@
+.off {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 89px;
+  height: 31px;
+  flex-shrink: 0;
+}
+.offWrapper {
+  cursor: pointer;
+  border: 3px solid var(--color-gray-200);
+  padding: 24.857696533203125px 0;
+  background-color: var(--color-gray-100);
+  border-radius: var(--br-xl);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  width: 187px;
+  height: 82px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shutdownIcon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.frame,
+.frame1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frame {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
