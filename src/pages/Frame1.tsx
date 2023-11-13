@@ -1,4 +1,4 @@
-import { FunctionComponent, useCallback } from "react";
+import React, { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import TabContainer2 from "../components/TabContainer2";
 import styles from "./Frame1.module.css";

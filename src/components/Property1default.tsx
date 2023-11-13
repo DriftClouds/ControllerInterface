@@ -1,4 +1,4 @@
-import { FunctionComponent, useMemo, type CSSProperties } from "react";
+import React, { FunctionComponent, useMemo, type CSSProperties } from "react";
 import styles from "./Property1default.module.css";
 
 type Property1defaultType = {

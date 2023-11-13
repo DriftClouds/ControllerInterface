@@ -1,4 +1,4 @@
-import { FunctionComponent, useCallback } from "react";
+import React, { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import BikeCard from "../components/BikeCard";
 import styles from "./Frame4.module.css";

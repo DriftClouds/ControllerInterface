@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import AskMeAnythingSection from "../components/AskMeAnythingSection";
 import styles from "./TabContainerType6.module.css";
 

@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import WaveContainer from "./WaveContainer";
 import styles from "./WaveCard.module.css";
 

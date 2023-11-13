@@ -1,7 +1,6 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import {
   BrowserRouter as Router,
-
   Routes,
   Route,
   useNavigationType,
@@ -76,15 +75,16 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
-      <Route path="/" element={<Frame />} />
-      <Route path="/frame-2" element={<Frame1 />} />
-      <Route path="/frame-3" element={<Frame2 />} />
-      <Route path="/frame-4" element={<Frame3 />} />
-      <Route path="/frame-5" element={<Frame4 />} />
-      <Route path="/tab-containertype6" element={<TabContainerType6 />} />
-      <Route path="/frame-main" element={<FrameMain />} />
-    </Routes>
+    <React.StrictMode>
+      <Routes>
+        <Route path="/" element={<FrameMain />} />
+        <Route path="/frame-2" element={<Frame1 />} />
+        <Route path="/frame-3" element={<Frame2 />} />
+        <Route path="/frame-4" element={<Frame3 />} />
+        <Route path="/frame-5" element={<Frame4 />} />
+        <Route path="/tab-containertype6" element={<TabContainerType6 />} />
+      </Routes>
+    </React.StrictMode>
   );
 }
 export default App;

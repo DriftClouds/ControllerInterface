@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import Property1default from "./Property1default";
 import styles from "./AskMeAnythingSection.module.css";
 

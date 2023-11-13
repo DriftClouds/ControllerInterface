@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import styles from "./ContainerFrameButtons.module.css";
 
 type ContainerFrameButtonsType = {

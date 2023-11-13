@@ -1,4 +1,4 @@
-import { FunctionComponent, useCallback } from "react";
+import React, { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import StateDisable from "./StateDisable";
 import WaveCard from "./WaveCard";

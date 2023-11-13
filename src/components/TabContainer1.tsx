@@ -1,4 +1,4 @@
-import { FunctionComponent, useMemo, type CSSProperties } from "react";
+import React, { FunctionComponent, useMemo, type CSSProperties } from "react";
 import StateDisable from "./StateDisable";
 import StartButtonContainer from "./StartButtonContainer";
 import ContainerFrameButtons from "./ContainerFrameButtons";
@@ -263,6 +263,7 @@ const TabContainer1: FunctionComponent<TabContainer1Type> = ({
           imageIconUrl="/go@2x.png"
           imageIconId="/pause@2x.png"
         />
+
         <ContainerFrameButtons imageDescription="/shutdown@2x.png" />
       </div>
     </div>
